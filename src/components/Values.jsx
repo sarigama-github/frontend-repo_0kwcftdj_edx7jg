@@ -1,5 +1,5 @@
 import React from 'react'
-import { CreditCard, PiggyBank, ContactlessPayment } from 'lucide-react'
+import { CreditCard, PiggyBank, Wallet } from 'lucide-react'
 import { motion } from 'framer-motion'
 
 const items = [
@@ -14,7 +14,7 @@ const items = [
     desc: 'Spend globally. Save locally. No hidden fees.',
   },
   {
-    icon: ContactlessPayment,
+    icon: Wallet,
     title: 'Digital by default, plastic‑optional, contactless withdrawals',
     desc: 'Modern payments, less plastic, more freedom.',
   },
